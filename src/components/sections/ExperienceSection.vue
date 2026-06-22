@@ -41,6 +41,7 @@ const roleIcons = [Briefcase, BarChart2]
           <div class="glass rounded-2xl p-6 lg:p-8">
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4">
               <h3 class="text-xl font-semibold text-text-primary">{{ item.role }}</h3>
+              <span class="text-sm font-mono text-accent-purple">{{ item.Company}}</span>
               <span class="text-sm font-mono text-accent-purple">{{ item.period }}</span>
             </div>
 

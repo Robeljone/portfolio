@@ -122,29 +122,52 @@ export const projects: Project[] = [
     tags: ['SaaS', 'Multi-tenant', 'Node.js', 'React'],
     category: 'SaaS',
     icon: 'dumbbell',
+  },
+    {
+    id: 'crowdfunding-platform',
+    title: 'Crowdfunding Platform',
+    description:
+      'Multi-tenant crowdfunding platform with project management, funding tracking, and donor engagement features.',
+    tags: ['Vue.js','Laravel', 'MySQL'],
+    category: 'FinTech',
+    icon: 'hand-holding-dollar',
+  },
+  {
+    id: 'ecommerce-platform',
+    title: 'E-commerce Platform for Car Dealerships',
+    description:
+      'Multi-tenant e-commerce platform for car dealerships with inventory management, sales tracking, and customer relationship management.',
+    tags: ['Vue.js', 'Laravel', 'MySQL', 'E-commerce'],
+    category: 'E-commerce',
+    icon: 'cars',
   }
 ]
 
 export const experience: ExperienceItem[] = [
   {
-    role: 'Software Developer',
-    period: '2013 Feb - 2025 Oct',
-    Company: 'BGI Ethiopia',
+    role: 'Software Engineer',
+    period: '2026 Feb - Present',
+     Company: 'Seqela Technologies',
     highlights: [
-      'Delivered 6+ enterprise platforms across fintech, hospitality, healthcare, and SaaS domains',
-      'Architected multi-tenant systems serving thousands of concurrent users with 99.9% uptime',
-      'Reduced manual reporting time by 70% through automated dashboards and ETL pipelines',
-      'Led full-stack development from requirements gathering to production deployment',
+      'Design Lite CBS system',
+      'Lead development of a crowd funding platform',
+      'Lead development of a cooperative and unions management system',
+      'Design car e-commerce platform',
     ],
   },
   {
-    role: 'Business Intelligence Analyst & CRM Specialist',
-    period: '2013 Feb - 2025 Oct',
+    role: 'Software Developer | Business Intelligence Analyst & CRM Specialist',
+    period: '2023 March - 2025 Oct',
+    Company: 'BGI Ethiopia',
     highlights: [
-      'Designed KPI frameworks and executive dashboards driving data-informed decisions',
-      'Built POS-integrated sales intelligence platforms improving outlet coverage by 35%',
-      'Streamlined ETL processes reducing data processing time from hours to minutes',
-      'Partnered with cross-functional teams to translate business needs into analytics solutions',
+      'Delivered 6+ in-house projects',
+      'Transport Request Management System: Streamlined logistics operations with a Laravel-Vue.js platform, reducing manual processes by 40%',
+      'Fleet Management Dashboard: Developed a real-time dashboard integrating maintenance data',
+      'KPI Management System: Implemented a KPI tracking system that improved performance monitoring and accountability in beer production',
+      'Pickup & Delivery Automation: Automated pickup and delivery scheduling',
+      'Sales & Distribution Dashboard: Developed a Power BI dashboard integrating sales and distribution data, providing real-time insights that improved decision-making and increased sales by 15%',
+      'CRM Implementation: Led the implementation of a CRM system, enhancing customer relationship management and increasing customer retention by 20%',
+      'Cross-functional Collaboration: Worked closely with sales, logistics, and finance teams to identify pain points and develop tailored software solutions that improved operational efficiency',
     ],
   },
 ]
@@ -164,17 +187,7 @@ export const certifications: Certification[] = [
     title: 'Leadership Programs',
     category: 'Leadership',
     description: 'Team leadership, strategic planning, and organizational development for technology initiatives.',
-  },
-  {
-    title: 'AI Governance',
-    category: 'Emerging Tech',
-    description: 'Responsible AI practices, ethical frameworks, and governance for enterprise AI adoption.',
-  },
-  {
-    title: 'Big Data & Business Intelligence',
-    category: 'Data',
-    description: 'Large-scale data processing, warehousing, and enterprise BI platform implementation.',
-  },
+  }
 ]
 
 export const contactLinks: ContactLink[] = [
@@ -186,14 +199,14 @@ export const contactLinks: ContactLink[] = [
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/robel-yohannes',
-    href: 'https://linkedin.com/in/robel-yohannes',
+    value: 'linkedin.com/in/robel-kidane-9b6787169',
+    href: 'https://www.linkedin.com/in/robel-kidane-9b6787169',
     icon: 'linkedin',
   },
   {
     label: 'GitHub',
     value: 'github.com/robel-yohannes',
-    href: 'https://github.com/robel-yohannes',
+    href: 'https://github.com/Robeljone?tab=repositories',
     icon: 'github',
   },
   {
